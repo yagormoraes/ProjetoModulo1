@@ -32,7 +32,7 @@ function personagem1_2() {
 function personagem1_3() {
 	var opcao = (prompt("Digite o número correspondente a opção de seu interesse"))
 	if (opcao == 1){
-		window.location.href = "victory.html"
+		window.location.href = "victory1.html"
 	}else if(opcao == 2){
 		window.location.href = "gameOver1_3.html"
 	}else{
