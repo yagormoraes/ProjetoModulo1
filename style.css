@@ -114,6 +114,7 @@
 .img__selecion{
     width: 15rem;
     height: 12rem;
+    object-fit: cover;
 }
 
 /* Pagina Personagem 1 */
@@ -150,6 +151,8 @@
 .chr1__img{
     width: 15rem;
     height: 12rem;
+    object-fit: cover;
+    
 }
 
 /* Pagina Personagem 2 */
@@ -186,6 +189,7 @@
 .chr2__img{
     width: 15rem;
     height: 12rem;
+    object-fit: cover;
 }
 
 /* Pagina Personagem 3 */
@@ -222,5 +226,6 @@
 .chr3__img{
     width: 15rem;
     height: 12rem;
+    object-fit: cover;
 }
 
