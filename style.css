@@ -2,13 +2,14 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 /* Pagina Index e Game Over */
 .intro__body{
-    width: 100%;
-    height: 100vh;
+    width: auto;
+    height: 100%;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
@@ -17,6 +18,9 @@
     background-size: cover;
     background-position:center ;
     
+}
+.intro__text{
+    text-align: center;
 }
 
 .intro__main{
@@ -28,6 +32,13 @@
 
 }
 
+.intro__img{
+    width: 50rem;
+    height: 25rem;
+    object-fit: cover;
+
+}
+
 .intro__footer{
     height: 10vh;
     display: flex;
@@ -36,7 +47,38 @@
     background-color: white;
     opacity: 0.5;
     text-align: center;
+    line-height: 2rem;
+    font-size: 16px;
 }
+
+
+.intro__button{
+    box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+    transition: 1s;
+}
+
+.intro__button:hover{
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+
+.intro__button:active{
+    position:relative;
+	top:1px;
+}
+
 
 /* Pagina Seleçao de Personagem */
 
@@ -81,29 +123,39 @@
 }
 
 .card__org{
+    width: 80%;
     display: flex;
+    justify-content: space-around;
+
 }
 
 .card {
+    width:17rem ;
     border: 10px solid black;
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 0 1rem;
+    margin: 0 1px;
+    padding: 5px;
     text-align: center;
     font-family: arial;
   }
 
 
 .card button {
-    border: none;
-    padding: 12px;
-    color: white;
-    background-color: gray;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
+    box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
     transition: 1s;
 }
   
@@ -117,6 +169,32 @@
     object-fit: cover;
 }
 
+.selection__button{
+    box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+    transition: 1s;
+}
+
+.selection__button:hover{
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+
+.intro__button:active{
+    position:relative;
+	top:1px;
+}
 /* Pagina Personagem 1 */
 .chr1__body {
     width: 100%;
@@ -138,6 +216,25 @@
     justify-content: space-around;
 }
 
+.chr1__text{
+    background-color: white;
+    text-align: center;
+    padding:1rem ;
+    border: 2px solid black;
+}
+
+.chr1__list{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    line-height: 2rem;
+    padding: 0 1.5rem;
+    border: 2px solid black;
+
+}
+
+
 .chr1__footer{
     height: 10vh;
     display: flex;
@@ -152,7 +249,36 @@
     width: 15rem;
     height: 12rem;
     object-fit: cover;
+    border: 2px black solid;
     
+}
+
+
+.chr1__button{
+    box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+    transition: 1s;
+}
+
+.chr1__button:hover{
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+
+.chr1__button:active{
+    position:relative;
+	top:1px;
 }
 
 /* Pagina Personagem 2 */
@@ -176,6 +302,24 @@
     justify-content: space-around;
 }
 
+.chr2__text{
+    background-color: white;
+    text-align: center;
+    padding:1rem ;
+    border: 2px solid black;
+}
+
+.chr2__list{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    line-height: 2rem;
+    padding: 0 1.5rem;
+    border: 2px solid black;
+
+}
+
 .chr2__footer{
     height: 10vh;
     display: flex;
@@ -190,6 +334,34 @@
     width: 15rem;
     height: 12rem;
     object-fit: cover;
+    border: 2px black solid;
+}
+
+.chr2__button{
+    box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+    transition: 1s;
+}
+
+.chr2__button:hover{
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+
+.chr2__button:active{
+    position:relative;
+	top:1px;
 }
 
 /* Pagina Personagem 3 */
@@ -212,6 +384,24 @@
     align-items: center;
     justify-content: space-around;
 }
+.chr3__text{
+    background-color: white;
+    text-align: center;
+    padding:1rem ;
+    border: 2px solid black;
+}
+
+.chr3__list{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    line-height: 2rem;
+    padding: 0 1.5rem;
+    border: 2px solid black;
+
+}
+
 
 .chr3__footer{
     height: 10vh;
@@ -227,5 +417,69 @@
     width: 15rem;
     height: 12rem;
     object-fit: cover;
+    border: 2px black solid;
 }
 
+.chr3__button{
+    box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+    transition: 1s;
+}
+
+.chr3__button:hover{
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+
+.chr3__button:active{
+    position:relative;
+	top:1px;
+}
+
+/*Ajuste de tela para celular*/
+@media (max-width:800px) {
+    .intro__img{
+        width: 25rem ;
+        height: 17rem;
+    }
+}
+
+@media (max-width:480px) {
+    .intro__img{
+        width: 15rem ;
+        height: 12rem;
+    }
+    .card__org{
+        flex-direction: column;
+
+    }
+    .card{
+        width: 8rem;
+        height: 10rem;
+
+    }
+    .img__selecion{
+        width: 5rem;
+        height: 7rem;
+    }
+    .chr1__main{
+        font-size: 0.7rem;
+    }
+    .chr2__main{
+        font-size: 0.7rem;
+    }
+    .chr3__main{
+        font-size: 0.7rem;
+    }
+}

@@ -58,7 +58,7 @@ function personagem2_2() {
 	var tent = 1
 	while(tent<=4){
 		var questao = (prompt("Digite sua resposta com o valor exato"))
-		if(questao == 326416){
+		if(questao == 326415){
 			window.location.href = "personagem2_3.html"
 			break
 		}else if(tent<3){
