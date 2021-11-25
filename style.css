@@ -17,6 +17,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center ;
+
     
 }
 .intro__text{
@@ -36,6 +37,8 @@
     width: 50rem;
     height: 25rem;
     object-fit: cover;
+    border: 2px black solid;
+    border-radius:15px;
 
 }
 
@@ -221,6 +224,7 @@
     text-align: center;
     padding:1rem ;
     border: 2px solid black;
+    border-radius:15px;
 }
 
 .chr1__list{
@@ -231,6 +235,7 @@
     line-height: 2rem;
     padding: 0 1.5rem;
     border: 2px solid black;
+    border-radius:15px;
 
 }
 
@@ -250,6 +255,7 @@
     height: 12rem;
     object-fit: cover;
     border: 2px black solid;
+    border-radius:15px;
     
 }
 
@@ -307,6 +313,7 @@
     text-align: center;
     padding:1rem ;
     border: 2px solid black;
+    border-radius:15px;
 }
 
 .chr2__list{
@@ -317,6 +324,7 @@
     line-height: 2rem;
     padding: 0 1.5rem;
     border: 2px solid black;
+    border-radius:15px;
 
 }
 
@@ -335,6 +343,7 @@
     height: 12rem;
     object-fit: cover;
     border: 2px black solid;
+    border-radius:15px;
 }
 
 .chr2__button{
@@ -389,6 +398,7 @@
     text-align: center;
     padding:1rem ;
     border: 2px solid black;
+    border-radius:15px;
 }
 
 .chr3__list{
@@ -399,6 +409,7 @@
     line-height: 2rem;
     padding: 0 1.5rem;
     border: 2px solid black;
+    border-radius:15px;
 
 }
 
@@ -418,6 +429,7 @@
     height: 12rem;
     object-fit: cover;
     border: 2px black solid;
+    border-radius:15px;
 }
 
 .chr3__button{
@@ -460,15 +472,39 @@
         width: 15rem ;
         height: 12rem;
     }
-    .card__org{
-        flex-direction: column;
-
-    }
+    
     .card{
-        width: 8rem;
-        height: 10rem;
-
+        width: 90%;
+        height: auto;
+        margin: 10px 0;
     }
+
+    .selection__body{
+        width: 100%;
+        height:auto ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #3a8a9e;
+        background-image: none;
+        background-size:contain;
+    }
+
+    .selection__main, .card__org{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .selection__footer{
+        width:480px
+    }
+
+    
     .img__selecion{
         width: 5rem;
         height: 7rem;
